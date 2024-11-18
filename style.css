@@ -1,0 +1,168 @@
+/* first div */
+.img-fluid{
+    width:40px;
+}
+.navbarssclas{
+    padding-left:200px !important;
+}
+.navitesmclas1{
+    font-size:20px;
+}
+.navitesmclas2{
+    padding-right:90px !important;
+} 
+.ceramicimage{
+    width:100px;
+    height:80px;
+}
+.shopcolour{
+     color: #4e4b4b !important;
+}
+
+/* second div */
+.seconddivcontainer{
+    background-image:url("https://tz47gb.yourbrand.studio/files/dynamicContent/sites/tz47gb/images/en/webpage_11/ls0ljcz6/element_210/rwdMode_1/2400x836/main.webp");
+    height:700px;
+}
+.seconddivcontainer1{
+        text-align: center;
+        /* border: 2px solid blue; */
+        width:50%;
+        padding-top:200px;
+}
+.seconddivceramics{
+     color: #fff;
+     font-size:90px;
+}
+.seconddivpara{
+    color: #fff;
+    font-size:25px;
+    line-height:30px;
+}
+.seconddiv-buttonwork{
+padding:15px 80px !important;
+border-radius:0px;
+font-size:18px;
+background-color: rgb(168, 94, 94);
+border:1px solid rgb(168, 94, 94);
+}
+
+@media screen and (max-width:1440px){
+    .navbarssclas{
+    padding-left:200px !important;
+}
+.navitesmclas1{
+    font-size:20px;
+}
+.navitesmclas2{
+    padding-right:90px !important;
+} 
+.img-fluid{
+    width:40px;
+}
+.ceramicimage{
+    width:100px;
+    height:80px;
+}
+
+/* second div */
+.seconddivcontainer1{
+    width:100%;
+}
+
+}
+@media screen and (max-width:1280px){
+    .navbarssclas{
+        padding-left:50px !important;
+    }
+}
+@media screen and (max-width:1069px){
+    .navbarssclas{
+        padding-left:10px !important;
+    }
+    .ceramicimage{
+        width:100px;
+        height:80px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .navbarssclas{
+        padding-left:50px !important;
+    }
+    .navitesmclas1{
+        padding-right:10px !important;
+        font-size:17px;
+    }
+    .img-fluid{
+        width:40px;
+    }
+    .ceramicimage{
+        width:100px;
+        height:80px;
+    }
+
+    /* Second div */
+    .seconddivcontainer1{
+        padding-top:160px;
+        width:100%;
+}
+.seconddivceramics{
+     font-size:90px;
+}
+.seconddivpara{
+    line-height:30px;
+}
+}
+@media screen and (max-width:990px){
+    .navbarssclas{
+        margin:0 auto !important;
+    }
+
+    /* second div */
+    .seconddivcontainer1{
+        width:100%;
+}
+}
+@media screen and (max-width:768px) {
+    .navbarssclas{
+        margin:0 auto !important;
+    }
+
+        /* Second div */
+        .seconddivcontainer{
+            height:100%;
+        }
+        .seconddivcontainer1{
+            padding-top:140px !important;
+            padding-bottom:140px !important;
+            width:100%;
+    }
+    .seconddivceramics{
+         font-size:80px;
+    }
+    .seconddivpara{
+        line-height:30px;
+        font-size:20px;
+    }
+
+
+}
+
+@media screen and (max-width:320px){
+    .seconddivcontainer{
+        height:100%;
+    }
+    .seconddivcontainer1{
+        padding-top:140px !important;
+        padding-bottom:140px !important;
+        width:100%;
+}
+.seconddivceramics{
+     font-size:37px;
+}
+.seconddivpara{
+    line-height:30px;
+    font-size:15px;
+}
+}
+

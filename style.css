@@ -25,24 +25,28 @@
     height:700px;
     background-repeat:no-repeat;
     background-size: cover;
+    
 }
 .seconddivcontainer1{
         text-align: center;
         /* border: 2px solid blue; */
         width:50%;
         padding-top:200px;
+        
 }
 .seconddivceramics{
      color: #fff;
      font-size:90px;
      font-weight: bold;
      font-family: "Kumbh Sans";
+
 }
 .seconddivpara{
     color: #fff;
     font-size:25px;
     line-height:30px;
     font-family: "Kumbh Sans";
+    
 }
 .seconddiv-buttonwork{
 padding:15px 80px !important;
@@ -50,10 +54,12 @@ border-radius:0px;
 font-size:18px;
 background-color: rgb(168, 94, 94);
 border:1px solid rgb(168, 94, 94);
+
 }
 
 /* third div */
 .Bestsellery{
+    
     text-align: center;
     font-size:50px;
     font-weight: bold;
@@ -62,6 +68,7 @@ border:1px solid rgb(168, 94, 94);
 }
  .section3-rowin{
     margin-top:10px;
+    
 }
 .section3-imagecontainer1,.section3-imagecontainer2,.section3-imagecontainer3{
     overflow: hidden;
@@ -688,6 +695,15 @@ border:1px solid rgb(168, 94, 94);
 }
 
 @media screen and (max-width:400px){
+
+    /* seconf div  */
+     .seconddivceramics{
+        font-size:70px;
+     }
+
+
+
+
     /* third div */
     /* .section3-image1{
         height:400px !important;

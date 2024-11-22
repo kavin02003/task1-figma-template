@@ -35,11 +35,14 @@
 .seconddivceramics{
      color: #fff;
      font-size:90px;
+     font-weight: bold;
+     font-family: "Kumbh Sans";
 }
 .seconddivpara{
     color: #fff;
     font-size:25px;
     line-height:30px;
+    font-family: "Kumbh Sans";
 }
 .seconddiv-buttonwork{
 padding:15px 80px !important;
@@ -55,19 +58,13 @@ border:1px solid rgb(168, 94, 94);
     font-size:50px;
     font-weight: bold;
     margin-top:100px;
+    font-family: "Kumbh Sans";
 }
  .section3-rowin{
     margin-top:10px;
 }
-/*.section3-colu1{
-    width:30%;
-    border:1px solid white;
-}
-.section3-colu2{
-    width:30%;
-}
-.section3-colu3{
-    width:30%;
+.section3-imagecontainer1,.section3-imagecontainer2,.section3-imagecontainer3{
+    overflow: hidden;
 }
 .section3-image1{
     height:400px;
@@ -77,19 +74,20 @@ border:1px solid rgb(168, 94, 94);
 }
 .section3-image3{
     height:400px;
-} */
-.section3-image1{
-    height:310px;
+} 
+.section3-productname{
+    font-family: "Kumbh Sans";
 }
 .section3-dollar{
     font-weight: bold;
     font-size:25px;
+    font-family: "Kumbh Sans";
 }
 .section3-image1:hover,.section3-image2:hover,.section3-image3:hover{
     cursor:pointer;
     /* object-fit: cover; */
-    transition: transform 0.4s ease;
-    transform: scale(1.09); 
+    transition:0.4s ease;
+    transform: scale(1.3); 
 }
 
 /* line div */
@@ -99,6 +97,7 @@ border:1px solid rgb(168, 94, 94);
   margin-left:110px;
   margin-top:30px;
 }
+
 
 /* fourth div */
 .section4-totalcontainer{
@@ -144,11 +143,13 @@ border:1px solid rgb(168, 94, 94);
 .section4-collectiontext{
     font-weight: bold;
     font-size: 50px;
+    font-family: "Kumbh Sans";
 }
 .section4-para1{
     line-height:30px;
     padding-top:10px;
     font-size:17px;
+    font-family: "Kumbh Sans";
 }
 .buttonwork1{
     border-radius:0px;
@@ -180,10 +181,12 @@ border:1px solid rgb(168, 94, 94);
     font-weight: bold;
     font-size:48px;
     margin-top:20px;
+    font-family: "Kumbh Sans";
 }
 .section5-para1{
     font-size:17px;
     line-height:29px;
+    font-family: "Kumbh Sans";
 }
 .section5-buttonwork1{
     padding:15px 70px;
@@ -197,6 +200,156 @@ border:1px solid rgb(168, 94, 94);
     border:1px solid rgb(168, 94, 94);
 }
 
+
+/* sixth div */
+.section6-totalcontainer{
+    background-color: #bababa;
+}
+.section6-employees{
+    margin-top:70px;
+    text-align: center;
+    font-weight:700; 
+    font-size:50px;
+    font-family: "Kumbh Sans", sans-serif;
+   
+}
+.section6-image1{
+   border-radius:100%;
+}
+.section6-image2{
+    border-radius:100%;
+}
+.section6-image3{
+    border-radius:100%;
+}
+.section6-colu1{
+   /* border-style: dashed; */
+   text-align: center;
+   margin-top:100px !important;
+   margin-bottom:100px !important;
+}
+.section6-colu2{
+    /* border-style: dashed; */
+    text-align: center;
+    margin-top:100px !important;
+    margin-bottom:100px !important;
+}
+.section6-colu3{
+    /* border-style: dashed; */
+    text-align: center;
+    margin-top:100px !important;
+    margin-bottom:100px !important;
+}
+.section6-employee1,.section6-employee2,.section6-employee3{
+     font-weight:400;
+     font-family: "Kumbh Sans";
+}
+.section6-para1,.section6-para2,.section6-para3{
+    font-size:17px;
+    line-height:27px;
+    font-family: "Kumbh Sans";
+}
+
+
+/* seventh div  */
+.section7-colu1{
+  /* border-style: dashed; */
+  height:645px;
+  max-width:600px !important;
+  
+}
+.section7-colu2{
+    /* border-style: dashed; */
+    height:625px;
+    max-width:550px !important;
+    padding:0px 0px;
+    
+}
+.section7-colu3{
+    /* border-style: dashed; */
+    height:295px;
+    padding:0px 0px;
+    
+}
+.section7-colu4{
+    /* border-style: dashed; */
+    padding:0px 0px;
+    
+}
+.section7-rowin1{
+    column-gap:20px;
+    
+}
+.section7-rowin2{
+    /* border-style: dashed; */
+    height:330px;
+    
+}
+.section7-rowin3{
+    /* border-style: dashed; */
+    column-gap:20px !important; 
+    margin-top:20px;
+     
+}
+.section7-image1{
+    width:100%;
+    height:100%;
+}
+.section7-image2{
+    width:100%;
+    height:100%;
+    padding:0px 0px;
+}
+.section7-image3{
+    width:100%;
+    height:100%;
+}
+.section7-image4{
+    width:100%;
+    height:100%;
+}
+
+/* eighth div */
+.section8-maincontainer{
+    background-image:url("https://tz47gb.yourbrand.studio/files/dynamicContent/sites/tz47gb/images/en/webpage_11/ls0ljcz6/element_241/rwdMode_1/2400x800/history.webp");
+    height:850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section8-maindiv{
+    /* border-style: dashed; */
+    width:500px;
+    margin-top:150px;
+    padding-top:200px !important;
+}
+.section8-story{
+    color:#fff;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size:50px;
+}
+.section8-para1{
+    color:#fff;
+    font-size:18px;
+    padding-top:10px;
+    line-height:30px;
+    font-family: "Kumbh Sans";
+}
+
+
+/* nineth div */
+.section9-maincontainer{
+    background-color:rgb(23,23,23);
+}
+.section9-colu1,.section9-colu2,.section9-colu3,.section9-colu4{
+    color:#fff;
+    font-size:17px;
+    font-family: "Kumbh Sans";
+}
+.section9-logo1:hover{
+    color: #fff !important;
+    cursor:pointer;
+}
 
 
 
@@ -229,6 +382,7 @@ border:1px solid rgb(168, 94, 94);
     margin-left:70px;
     margin-top:30px;
   }
+
 
 }
 @media screen and (max-width:1280px){
@@ -275,7 +429,7 @@ border:1px solid rgb(168, 94, 94);
 
 /* third div */
 .section3-image1{
-    height:220px;
+    height:400px;
 }
 
 /* fourth div */
@@ -321,6 +475,18 @@ border:1px solid rgb(168, 94, 94);
 }
 .section5-rowin1{
     margin-top:80px !important;
+}
+
+/* sixth div  */
+.section6-employees{
+    padding-top:100px !important;
+   
+}
+
+/* eighth div */
+.section8-maindiv{
+    margin-top:100px;
+    padding-top:200px;
 }
 
 }
@@ -384,11 +550,26 @@ border:1px solid rgb(168, 94, 94);
 .section5-rowin1{
     margin-top:55px !important;
 }
+
+
+/* eighth div */
+.section8-maindiv{
+    padding-top:150px !important;
+}
+.section8-maincontainer{
+    height:600px;
+}
+ 
+
   
 
 
 }
 @media screen and (max-width:500px){
+    /* second div */
+    .seconddivcontainer{
+        background-position: center;
+    }
     /* fourth div */
     .line-div{
         margin-left:20px;
@@ -445,6 +626,64 @@ border:1px solid rgb(168, 94, 94);
         padding:10px 70px;
     }
 
+    /* sixth div  */
+    .section6-rowin1{
+        display: grid;
+    }
+    .section6-colu2, .section6-colu3{
+       margin-top:-50px !important;
+    }
+    .section6-employee1,.section6-employee2,.section6-employee3{
+        padding-top:15px;
+    }
+    .section6-para1,.section6-para2,.section6-para3{
+        padding-top:15px;
+    }
+
+
+    /* seventh div */
+    .section7-rowin1{
+        display:grid !important;
+    }
+    .section7-colu1{
+        margin-top:80px;
+    }
+    .section7-rowin2{
+        margin-top:20px;
+        margin-left:12px;
+        margin-right:12px;
+    }
+    .section7-rowin3{
+        margin-left:12px;
+        margin-right:12px;
+    }
+    .section7-colu3{
+        height:330px;
+    }
+
+
+    /* eighth div */
+    .section8-maindiv{
+        width:400px;
+    }
+    .section8-maincontainer{
+       margin-top:170px !important;
+        background-position: center;
+    }
+
+    /* nineth div  */
+    .section9-rowin1{
+        display:grid;
+        text-align: center;
+    }
+    .section9-colu1{
+        padding-top:80px;
+    }
+    .section9-colu2,.section9-colu3,.section9-colu4,.section9-colu5{
+        padding-top:20px;
+    }
+
+
 
 }
 
@@ -454,10 +693,14 @@ border:1px solid rgb(168, 94, 94);
         height:400px !important;
     } */
 
+
     /* fourth div */
     .line-div{
         margin-left:17px;
       } 
+      .section4-colu2{
+        margin-top:-100px;
+      }
     .section4-image1,.section4-image2{
        width:350px;
        
@@ -465,6 +708,21 @@ border:1px solid rgb(168, 94, 94);
     .section4-image3{
         height:270px;
         width:350px;
+    }
+
+    /* sixth div  */
+    .section6-employees{
+        font-size:44px;
+    }
+
+
+    /* eighth div */
+    .section8-maincontainer{
+        background-position: center;
+     }
+    .section8-maindiv{
+         width:340px;
+         padding-top:120px !important;
     }
 }
 
@@ -502,5 +760,36 @@ border:1px solid rgb(168, 94, 94);
     height:270px;
     width:295px;
 }
+
+/* sixth div  */
+.section6-employees{
+    font-size:37px;
+}
+
+
+/* seventh div  */
+.section7-colu1{
+    margin-left:-10px;
+    width:317px;
+}
+.section7-rowin2{
+    margin-left:2px;
+    width:293px;
+}
+.section7-rowin3{
+    margin-left:2px;
+    width:293px;
+}
+
+
+ /* eighth div */
+ .section8-maincontainer{
+    height:680px;
+    background-position: center;
+ }
+ .section8-maindiv{
+    width:290px;
+}
+
 }
 

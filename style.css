@@ -1,3 +1,4 @@
+
 /* first div */
 .img-fluid{
     width:40px;
@@ -566,7 +567,14 @@ border:1px solid rgb(168, 94, 94);
 .section8-maincontainer{
     height:600px;
 }
- 
+
+
+@media screen and (max-width:530px){
+    /* eighth div  */
+    .section8-maindiv {
+        width:450px;
+    }
+} 
 
   
 
@@ -694,6 +702,19 @@ border:1px solid rgb(168, 94, 94);
 
 }
 
+
+@media screen and (max-width:430px){
+    .section8-maindiv {
+       width:370px;
+    }
+}
+
+@media screen and (max-width:412px){
+    .section4-image1,.section4-image2,.section4-image3{
+        width:386px;
+    }
+}
+
 @media screen and (max-width:400px){
 
     /* seconf div  */
@@ -742,6 +763,45 @@ border:1px solid rgb(168, 94, 94);
     }
 }
 
+@media screen and (max-width:370px){
+
+    .section4-image1,.section4-image2,.section4-image3{
+         width:337px;  
+    }
+
+
+    .section8-maindiv{
+        width:300px;
+    }
+}
+
+@media screen and (max-width:370px){
+
+    .section4-image1,.section4-image2,.section4-image3{
+         width:325px;  
+    }
+}
+
+@media screen and (max-width:340px){
+
+    .section4-image1,.section4-image2,.section4-image3{
+         width:315px !important;  
+    }
+}
+
+@media screen and (max-width:332px){
+
+    .section4-image1,.section4-image2,.section4-image3{
+         width:306px !important;  
+    }
+    .section8-maindiv{
+        padding-top:60px !important;
+        width:270px;
+    }
+    .seconddivceramics{
+         font-size:60px;
+    }
+}
 
 @media screen and (max-width:320px){
     .seconddivcontainer{
@@ -769,12 +829,12 @@ border:1px solid rgb(168, 94, 94);
 
 }
 .section4-image1,.section4-image2{
-   width:295px;
+   width:295px !important;
    
 }
 .section4-image3{
     height:270px;
-    width:295px;
+    width:295px !important;
 }
 
 /* sixth div  */
@@ -808,4 +868,5 @@ border:1px solid rgb(168, 94, 94);
 }
 
 }
+
 
